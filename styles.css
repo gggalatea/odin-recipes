@@ -1,0 +1,39 @@
+h1,
+h2 {
+    color: mediumpurple;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.lasagna-link {
+    background-color: rgb(186, 225, 255);
+}
+
+.quiche-link {
+    background-color: #baffc9;
+}
+
+.soup-link {
+    background-color: hsl(60, 100%, 86%);
+    text-decoration: none;
+}
+
+.font-family {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.font-size {
+    font-size: 13px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.image {
+    height: 450px;
+    width: auto;
+}
