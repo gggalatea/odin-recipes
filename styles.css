@@ -1,6 +1,8 @@
-h1,
-h2 {
-    color: mediumpurple;
+.container {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.title {
     font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -17,9 +19,6 @@ h2 {
     text-decoration: none;
 }
 
-.font-family {
-    font-family: Verdana, Arial, sans-serif;
-}
 
 .font-size {
     font-size: 13px;
