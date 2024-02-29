@@ -1,9 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .container {
     font-family: Verdana, Arial, sans-serif;
+    background: rgba(195, 177, 225, 0.7)
+}
+
+.card {
+    width: 850px;
+    margin: 100px auto;
+    border: 5px solid mediumpurple;
+    background: white;
+    padding: 15px;
 }
 
 .title {
     font-family: Georgia, "Times New Roman", serif;
+    background: mediumpurple;
+    color: white;
+    text-align: center;
+    margin: -15px -15px 15px;
+    padding: 40px;
+}
+
+.recipe-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 .lasagna-link {
@@ -18,6 +48,8 @@
     background-color: hsl(60, 100%, 86%);
     text-decoration: none;
 }
+
+
 
 
 .font-size {
