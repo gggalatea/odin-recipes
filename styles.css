@@ -10,7 +10,7 @@ html {
 
 .container {
     font-family: Verdana, Arial, sans-serif;
-    background: rgba(195, 177, 225, 0.7)
+    background: rgba(166, 137, 225, 0.7)
 }
 
 .card {
@@ -18,7 +18,7 @@ html {
     margin: 100px auto;
     border: 5px solid mediumpurple;
     background: white;
-    padding: 15px;
+    padding: 20px 20px 40px;
 }
 
 .title {
@@ -26,7 +26,7 @@ html {
     background: mediumpurple;
     color: white;
     text-align: center;
-    margin: -15px -15px 15px;
+    margin: -20px -20px 40px;
     padding: 40px;
 }
 
@@ -36,17 +36,22 @@ html {
     list-style: none;
 }
 
-.lasagna-link {
-    background-color: rgb(186, 225, 255);
+.recipe {
+    text-align: center;
+    margin: 20px 0px;
 }
 
-.quiche-link {
-    background-color: #baffc9;
+.recipe-list li:last-child {
+    margin: 0px;
 }
 
-.soup-link {
-    background-color: hsl(60, 100%, 86%);
+.recipe-link {
     text-decoration: none;
+    color: white;
+    background: #A689E1;
+    font-size: 18px;
+    display: block;
+    padding: 25px;
 }
 
 
